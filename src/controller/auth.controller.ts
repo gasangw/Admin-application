@@ -12,3 +12,5 @@ export const Register = (req:Request, res:Response) => {
 
   res.send(body)
 }
+
+export const Login = (req: Request, res: Response) => {}
