@@ -1,3 +1,3 @@
-import express from 'express'
+import { Router } from 'express'
 
-export const route = express.Router()
+export const route = (router: Router) => {}
